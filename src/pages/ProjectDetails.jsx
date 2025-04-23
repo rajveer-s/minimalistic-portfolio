@@ -25,9 +25,8 @@ function ProjectDetails() {
     <motion.main
       className="container project-details"
       initial={{ opacity: 0, x: -50 }}       // Start 50px left, hidden
-      whileInView={{ opacity: 1, x: 0 }}       // Slide to its natural position
+      animate={{ opacity: 1, x: 0 }}        // Slide to its natural position
       transition={{ duration: 0.8 }}
-      viewport={{ once: true }}
     >
       <h1>{project.title}</h1>
 

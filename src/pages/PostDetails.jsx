@@ -26,9 +26,8 @@ function PostDetails() {
     <motion.main
     className="container post-details"
     initial={{ opacity: 0, y: 50 }}
-    whileInView={{ opacity: 1, y: 0 }}
+    animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
-    viewport={{ once: true }}               // Animate only once
     >
       {/* TOP NAV: Back to all posts */}
       <div className="top-links">

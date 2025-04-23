@@ -14,9 +14,8 @@ function BlogList() {
     <motion.main
     className="container"
     initial={{ opacity: 0, y: 50 }}         // Start slightly below, hidden
-    whileInView={{ opacity: 1, y: 0 }}      // Animate to fully visible
+    animate={{ opacity: 1, y: 0 }}          // Animate to fully visible
     transition={{ duration: 1.2 }}
-    viewport={{ once: true }}               // Animate only once
     >
       <h1>All Posts</h1>
       <ul>

@@ -38,8 +38,7 @@ function Home() {
       <motion.section
         className="intro"
         initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
+        animate="visible"
         transition={{ duration: 0.8 }}
       >
         {/* Profile Image and Name */}
@@ -72,7 +71,7 @@ function Home() {
           className="intro-social-links"
           variants={staggerContainer}
           initial="hidden"
-          whileInView="visible"
+          animate="visible"
         >
           {[
             { label: "Resume", href: "/resume" },
@@ -101,8 +100,7 @@ function Home() {
       <motion.section
         className="lists"
         initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
+        animate="visible"
         transition={{ duration: 0.8, delay: 0.5 }}
         variants={slideUpVariant}
       >
@@ -159,8 +157,7 @@ function Home() {
       <motion.section
         className="blog"
         initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
+        animate="visible"
         transition={{ duration: 1.8, delay: 1 }}
         variants={slideUpVariant}
       >
