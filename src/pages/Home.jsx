@@ -44,7 +44,7 @@ function Home() {
         {/* Profile Image and Name */}
         <motion.div variants={slideUpVariant}>
           <img
-            src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/64292283_1335042786650077_6012226359177248768_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=pqAI2w2lbkQQ7kNvgEttyq7&_nc_oc=Adn2tz-ItkZedLh-WEVr8OG27YFRxnzyUa24a7g9fCKTjEuDhlE-c78h-f9w3n-M2N8&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=-mM1_NoCVL0AFeTRe4dsIg&oh=00_AYF3MIEvYnL1K-gcJKhkvJCNasANY-2KfEFdxbInZxvHtw&oe=68071808"
+            src="/12.jpeg"
             alt="Profile"
             className="profile-image"
           />
