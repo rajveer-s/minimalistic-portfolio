@@ -121,3 +121,6 @@ function PostDetails() {
 }
 
 export default PostDetails;
+
+// need to update screenshots for last two posts
+// need to add youtube links for last two posts
