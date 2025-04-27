@@ -5,6 +5,7 @@ import { projects } from "../data/projects";
 import { posts } from "../data/posts";
 import { motion } from "framer-motion";
 import useTitle from "../components/UseTitle";
+import profileimg from "../assets/images/profile.jpg";
 
 // Variants for elements sliding up (from below)
 const slideUpVariant = {
@@ -44,7 +45,7 @@ function Home() {
         {/* Profile Image and Name */}
         <motion.div variants={slideUpVariant}>
           <img
-            src="/12.jpeg"
+            src={profileimg}
             alt="Profile"
             className="profile-image"
           />
